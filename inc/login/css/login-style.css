@@ -1,0 +1,118 @@
+body { background: #ffffff; font-family: 'HelveticaNeue',Helvetica, Arial, sans-serif; color: #000000; }
+
+.login h1 a {
+    background-image: url(../../../dist/img/login.svg);
+    background-image: none,url(../../../dist/img/login.svg);
+    background-size: 250px;
+    width: 250px;
+    height: 110px;
+}
+
+.login form {
+	border: none;
+	box-shadow: none;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: #000000;
+}
+
+.login #backtoblog a, .login #nav a {
+    color: #000000;
+}
+
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.login .privacy-policy-page-link {
+    text-align: left;
+    width: 100%;
+    margin: 5em 0 2em;
+    padding: 0 24px 0;
+}
+
+.login .button.wp-hide-pw {
+	display: none !important;
+}
+
+input[type=checkbox]:checked::before {
+    content: "■";
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000000;
+    margin-left: -3px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 782px) {
+	input[type=checkbox]:checked::before {
+		margin-top: 9px;
+	}
+}
+
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    border-radius: 0px; 
+    border: none;
+}
+    
+input[type=checkbox]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=radio]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, select:focus, textarea:focus {
+    border-color: #000000 !important;
+    box-shadow: 0 0 0 1px #000000 !important;
+}
+    
+.wp-core-ui .button-primary, .wp-core-ui .button-large {
+    background: #000000;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+    
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary, .wp-core-ui .button-large  {
+	border-radius: 0px;
+    padding: 10px 30px !important;
+}
+	
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover, .wp-core-ui .button-large:hover { 
+	background: #2d2d2d;
+    border: none;
+    color: #FFFFFF;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: #F1F1F1;
+}
+
+input[type=checkbox], input[type=radio] {
+	border-radius: inherit;
+	box-shadow: none;	
+}
+
+.login form .forgetmenot {
+    margin-bottom: 20px !important;
+}
+
+.login form .input, .login input[type=password], .login input[type=text] {
+    font-size: 16px;
+    padding: 14px 20px;
+}
+
+.admin-email__actions .button-large {
+	float: none;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+.admin-email__actions-secondary a:hover {
+	text-decoration: underline;
+}
